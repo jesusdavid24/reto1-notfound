@@ -102,12 +102,10 @@ img {
         align-items: start;
         padding-left: 15px !important;
     }
-      
-    
-      
+
     .font-title {
         color: #333333;
-        font-size: 38px;
+        font-size: 40px;
         font-weight: bold;     
         width: 100%;
         order: 2;
