@@ -5,36 +5,49 @@
     padding: 5px 8px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .title {
     font-weight: bold;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
 .imagen {
-    margin-right: 40px;
+    text-align: center;
+    margin-top: 50px;
+    width: 50%;
 }
 
 
 img {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 440px;
+}
+
+.content-message {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 .font-title {
     color: #333333;
-    font-size: 80px;
-    font-weight: bold;     
+    font-size: 60px;
+    font-weight: bold;
+    width: 100%;    
 }
 
 .font-paragrahp {
     text-align: left;
     font-size: 25px;
     width: 400px;
+    margin-top: 1px;
 }
 
 .button {
@@ -44,6 +57,7 @@ img {
     margin-left: 10px;
     padding: 17px 17px;
     font-size: 15px;
+    width: 32%;
 }
 
 @media screen and (max-width: 415px) {
@@ -56,7 +70,7 @@ img {
     }
 
     .title {
-        padding: 8px !important;
+        padding: 20px !important;
     }
 
     .container {
@@ -64,30 +78,44 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+
+    .imagen {
+        text-align: center;
+        margin-top: 10px;
+        width: 100%;
     }
 
     img {
         order: 1;
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 220px;
         
     }
-      
-    .imagen {
-        margin-right: 0px;
+
+    .content-message {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 15px !important;
     }
+      
+    
       
     .font-title {
         color: #333333;
         font-size: 38px;
         font-weight: bold;     
-        width: 320px;
+        width: 100%;
         order: 2;
     }
       
     .font-paragrahp {
         font-size: 15px;
-        width: 300px;
+        width: 70%;
         order: 3;
     }
       
